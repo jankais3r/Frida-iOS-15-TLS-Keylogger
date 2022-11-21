@@ -19,7 +19,7 @@ Released under MIT License, feel free to fork it, incorporate into other softwar
 */
 
 /*
-Steps to get find an offset for a specific version of iOS:
+Steps to find an offset for a specific version of iOS:
 1) Download an IPSW, unzip it.
 2) Mount the largest (~5.5GB) DMG image and copy out the following folder: `/System/Library/Caches/com.apple.dyld`.
 3) Extract the dyld shared cache: `dsc_extractor com.apple.dyld/dyld_shared_cache_arm64 extracted`.
